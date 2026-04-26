@@ -156,6 +156,7 @@ function buildHierarchicalMenu(){
       label: '💰 Projects',
       children: [
         { label: 'The Money Club', href: `${prefix}community/the-money-club.html` },
+        { label: 'Capital Works', href: `${prefix}community/capital-works.html` },
       ],
     },
     { label: 'Contact', href: `${prefix}dm.html`, className: 'menu-footer-link' },
