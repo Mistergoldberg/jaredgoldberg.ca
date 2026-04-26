@@ -145,11 +145,19 @@ function buildHierarchicalMenu(){
     {
       label: '🧠 Writing',
       children: [
-        { label: 'Start Here: What Do the Wealthy, the Sun, and Popular Kids Have in Common?', href: `${prefix}writing/what-do-the-wealthy.html` },
+        { label: 'What Do the Wealthy, the Sun, and Popular Kids Have in Common?', href: `${prefix}writing/what-do-the-wealthy.html` },
         { label: 'Baseball Bats and Dominance Hierarchies', href: `${prefix}writing/baseball-bats.html` },
         { label: 'Why the Medium Is the Message', href: `${prefix}writing/medium-is-the-message.html` },
-        { label: 'We Behave Like Ants', href: `${prefix}writing/we-behave-like-ants.html` },
+        { label: 'We Behave Like Ants: Feedback Loops and Collective Failure', href: `${prefix}writing/we-behave-like-ants.html` },
         { label: 'What Does It All Mean?', href: `${prefix}writing/what-does-it-all-mean.html` },
+        { label: 'If Luck Is Structural, What Do We Teach Our Kids?', href: `${prefix}writing/if-luck-is-structural.html` },
+        { label: 'Civic Design Failure: Why We Teach Money Too Late', href: `${prefix}writing/civic-design-failure.html` },
+        { label: 'Compounding Bad Luck Is Expensive for You Too', href: `${prefix}writing/compounding-bad-luck.html` },
+        { label: 'What Real Systems Taught Me About Incentives', href: `${prefix}writing/real-systems-incentives.html` },
+        { label: 'This Summer, We\'re Building Infrastructure', href: `${prefix}writing/building-infrastructure.html` },
+        { label: 'The Misaligned Compass', href: `${prefix}writing/the-misaligned-compass.html` },
+        { label: 'Debt, Slavery, and the Treasury', href: `${prefix}writing/debt-slavery-treasury.html` },
+        { label: 'Why Roman Law Still Runs the World (coming)', href: `${prefix}writing/why-roman-law-still-runs-the-world.html` },
       ],
     },
     {
