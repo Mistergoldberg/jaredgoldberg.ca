@@ -944,15 +944,10 @@ footer{
     box-shadow: var(--shadow);
     padding: 18px;
   }
-  body.essay-page #adventure,
-  body.work-page #adventure{
-    display: none;
-  }
 }
 
-@media (min-width: 901px){
-  body.essay-page #adventure,
-  body.work-page #adventure{
+@media (min-width: 1024px){
+  .wiki-layout #adventure{
     display: none;
   }
 }
