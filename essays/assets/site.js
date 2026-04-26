@@ -134,17 +134,6 @@ function buildHierarchicalMenu(){
     { label: 'Home', href: `${prefix}../index.html`, className: 'menu-top-link' },
     { label: '👤 About', href: `${prefix}index.html`, className: 'menu-top-link' },
     {
-      label: '🧠 Ideas',
-      children: [
-        { label: 'Start Here: What Do the Wealthy, the Sun, and Popular Kids Have in Common?', href: `${prefix}writing/what-do-the-wealthy.html` },
-        { label: 'Baseball Bats and Dominance Hierarchies', href: `${prefix}writing/baseball-bats.html` },
-        { label: 'Why the Medium Is the Message', href: `${prefix}writing/medium-is-the-message.html` },
-        { label: 'We Behave Like Ants', href: `${prefix}writing/we-behave-like-ants.html` },
-        { label: 'What Does It All Mean?', href: `${prefix}writing/what-does-it-all-mean.html` },
-      ],
-    },
-    { label: '📷 Media', href: `${prefix}../photography/index.html`, className: 'menu-top-link' },
-    {
       label: '🛠️ Work',
       children: [
         { label: 'Loblaw', href: `${prefix}systems/loblaw.html` },
@@ -154,23 +143,22 @@ function buildHierarchicalMenu(){
       ],
     },
     {
-      label: '🍌 Food',
+      label: '🧠 Writing',
       children: [
-        { label: 'Chinese', href: `${prefix}food/chinese.html` },
-        { label: 'Thai Chili Paste', href: `${prefix}food/chili-paste.html` },
-        { label: 'Montreal Spiced Bread', href: `${prefix}food/montreal-spiced-bread.html` },
-        { label: 'Toasted Chocolate', href: `${prefix}food/toasted-chocolate.html` },
+        { label: 'Start Here: What Do the Wealthy, the Sun, and Popular Kids Have in Common?', href: `${prefix}writing/what-do-the-wealthy.html` },
+        { label: 'Baseball Bats and Dominance Hierarchies', href: `${prefix}writing/baseball-bats.html` },
+        { label: 'Why the Medium Is the Message', href: `${prefix}writing/medium-is-the-message.html` },
+        { label: 'We Behave Like Ants', href: `${prefix}writing/we-behave-like-ants.html` },
+        { label: 'What Does It All Mean?', href: `${prefix}writing/what-does-it-all-mean.html` },
       ],
     },
-    { label: '✂️ Art', href: `${prefix}art.html`, className: 'menu-top-link' },
     {
-      label: '🫶 Community Service',
+      label: '💰 Projects',
       children: [
         { label: 'The Money Club', href: `${prefix}community/the-money-club.html` },
-        { label: 'Coffee Kibbutz', href: `${prefix}community/coffee-kibbutz.html` },
       ],
     },
-    { label: 'DM', href: `${prefix}dm.html`, className: 'menu-footer-link' },
+    { label: 'Contact', href: `${prefix}dm.html`, className: 'menu-footer-link' },
   ];
 
   menuLinks.innerHTML = '';
