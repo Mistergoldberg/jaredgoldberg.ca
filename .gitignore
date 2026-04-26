@@ -4,13 +4,13 @@ node_modules/
 .yarn/
 
 # Build outputs
-dist/
-build/
-.next/
-.nuxt/
-.svelte-kit/
-out/
-coverage/
+/dist/
+/build/
+/.next/
+/.nuxt/
+/.svelte-kit/
+/out/
+/coverage/
 
 # Local environment and secrets
 .env
@@ -36,4 +36,3 @@ Thumbs.db
 .vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
-

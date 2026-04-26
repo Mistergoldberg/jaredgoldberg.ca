@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png">
+    <meta name="description" content="Jared Goldberg explores ideas, systems, food, art, and community through essays and field notes.">
+    <title>Insert Catchy Title Here | Jared Goldberg | Field Notes</title>
+
+    <!--
+      Font loading notes:
+      - H1 = Raleway Heavy 900, all caps
+      - H2 = Raleway Bold
+      - Body = Raleway Regular
+      Define @font-face inside assets/css/tokens.css when files are available.
+    -->
+
+    <link rel="stylesheet" href="assets/css/tokens.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+  </head>
+  <body class="page page-home" data-zoom-lock="true">
+    <a class="skip-link" href="index.html#main-content">Skip to main content</a>
+
+    <header class="site-header site-header--overlay" data-track-section="header">
+      <div class="layout-shell layout-shell--stage site-header__inner site-header__inner--no-brand">
+        <button
+          class="menu-trigger type-nav"
+          type="button"
+          data-menu-toggle
+          aria-controls="site-menu-panel"
+          aria-expanded="false"
+        >
+          Menu
+        </button>
+      </div>
+    </header>
+
+    <div id="site-menu-panel" class="menu-panel" data-menu-panel aria-hidden="true">
+      <button class="menu-panel__backdrop" type="button" aria-label="Close menu" data-menu-close></button>
+      <aside class="menu-panel__sheet" role="dialog" aria-modal="true" aria-labelledby="menu-panel-title">
+        <div class="menu-panel__top">
+          <h2 id="menu-panel-title" class="u-sr-only">Main menu</h2>
+          <button class="menu-panel__close" type="button" data-menu-close aria-label="Close menu">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+
+        <nav class="menu-panel__nav" aria-label="Primary">
+          <ul class="menu-panel__links">
+            <li>
+              <a class="menu-panel__link" href="essays/index.html">
+                <span class="menu-panel__icon" aria-hidden="true">👤</span>
+                <span class="menu-panel__text">About Jared</span>
+              </a>
+            </li>
+            <li>
+              <a class="menu-panel__link menu-panel__link--accent" href="essays/writing/index.html">
+                <span class="menu-panel__icon" aria-hidden="true">🧠</span>
+                <span class="menu-panel__text">Ideas</span>
+              </a>
+            </li>
+            <li>
+              <a class="menu-panel__link" href="photography/index.html">
+                <span class="menu-panel__icon" aria-hidden="true">📷</span>
+                <span class="menu-panel__text">Media</span>
+              </a>
+            </li>
+            <li>
+              <a class="menu-panel__link" href="essays/systems/index.html">
+                <span class="menu-panel__icon" aria-hidden="true">🛠️</span>
+                <span class="menu-panel__text">Work</span>
+              </a>
+            </li>
+            <li>
+              <a class="menu-panel__link" href="essays/food/index.html">
+                <span class="menu-panel__icon" aria-hidden="true">🍌</span>
+                <span class="menu-panel__text">Food</span>
+              </a>
+            </li>
+            <li>
+              <a class="menu-panel__link" href="essays/art.html">
+                <span class="menu-panel__icon" aria-hidden="true">✂️</span>
+                <span class="menu-panel__text">Art</span>
+              </a>
+            </li>
+            <li>
+              <a class="menu-panel__link" href="essays/community/coffee-kibbutz.html">
+                <span class="menu-panel__icon" aria-hidden="true">🫶</span>
+                <span class="menu-panel__text">Community Service</span>
+              </a>
+            </li>
+            <li>
+              <a class="menu-panel__link" href="essays/community/the-money-club.html">
+                <span class="menu-panel__icon" aria-hidden="true">💰</span>
+                <span class="menu-panel__text">The Money Club.org</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+      </aside>
+    </div>
+
+    <main id="main-content">
+      <section class="project-stage section section--flush" id="home" aria-label="Featured project stage" data-track-section="hero">
+        <div class="layout-shell layout-shell--stage">
+          <div class="project-stage__viewport" data-hero data-hero-initial-slide-id="about-jared">
+            <article
+              class="project-slide project-slide--about-jared is-active"
+              data-hero-slide
+              data-slide-id="about-jared"
+              data-slide-title="About Jared"
+              data-preview-label="About Jared"
+              data-preview-kind="text"
+              data-preview-emoji="👤"
+              data-preview-word="about jared"
+              data-preview-image="assets/about.jpg"
+            >
+              <div class="project-slide__media project-slide__media--text" aria-hidden="true">
+                <div class="project-slide__text-mark">
+                  <span class="project-slide__text-emoji">👤</span>
+                  <span class="project-slide__text-word">about jared</span>
+                </div>
+              </div>
+              <div class="project-slide__overlay">
+                <a class="project-slide__action type-utility" href="essays/index.html" data-track="cta_about_jared">
+                  Jared Just Jared, Learn More
+                </a>
+              </div>
+            </article>
+
+            <article
+              class="project-slide project-slide--media"
+              data-hero-slide
+              data-slide-id="media"
+              data-slide-title="Media"
+              data-preview-label="Media"
+              data-preview-kind="text"
+              data-preview-emoji="📷"
+              data-preview-word="media"
+              data-preview-image="assets/media.jpg"
+              aria-hidden="true"
+            >
+              <div class="project-slide__media project-slide__media--text" aria-hidden="true">
+                <div class="project-slide__text-mark">
+                  <span class="project-slide__text-emoji">📷</span>
+                  <span class="project-slide__text-word">media</span>
+                </div>
+              </div>
+              <div class="project-slide__overlay">
+                <a class="project-slide__action type-utility" href="photography/index.html" data-track="cta_media">
+                  Still photos and visual field notes
+                </a>
+              </div>
+            </article>
+
+            <article
+              class="project-slide project-slide--the-money-club-org"
+              data-hero-slide
+              data-slide-id="the-money-club-org"
+              data-slide-title="The Money Club.Org"
+              data-preview-label="The Money Club.Org"
+              data-preview-kind="text"
+              data-preview-emoji="💰"
+              data-preview-word="the money club.org"
+              data-preview-image="assets/community-service.jpg"
+              aria-hidden="true"
+            >
+              <div class="project-slide__media project-slide__media--text" aria-hidden="true">
+                <div class="project-slide__text-mark">
+                  <span class="project-slide__text-emoji">💰</span>
+                  <span class="project-slide__text-word">the money club.org</span>
+                </div>
+              </div>
+              <div class="project-slide__overlay">
+                <a
+                  class="project-slide__action type-utility"
+                  href="essays/community/the-money-club.html"
+                  data-track="cta_the_money_club_org"
+                >
+                  Infrastructure designed to teach financial literacy
+                </a>
+              </div>
+            </article>
+
+            <article
+              class="project-slide project-slide--ideas"
+              data-hero-slide
+              data-slide-id="ideas"
+              data-slide-title="Ideas"
+              data-preview-label="Ideas"
+              data-preview-kind="text"
+              data-preview-emoji="🧠"
+              data-preview-word="ideas"
+              data-preview-image="assets/ideas.jpg"
+              aria-hidden="true"
+            >
+              <div class="project-slide__media project-slide__media--text" aria-hidden="true">
+                <div class="project-slide__text-mark">
+                  <span class="project-slide__text-emoji">🧠</span>
+                  <span class="project-slide__text-word">ideas</span>
+                </div>
+              </div>
+              <div class="project-slide__overlay">
+                <a class="project-slide__action type-utility" href="essays/writing/index.html" data-track="cta_ideas">
+                  Essays exploring patterns across wealth, media, &amp; beliefs
+                </a>
+              </div>
+            </article>
+
+            <article
+              class="project-slide project-slide--work"
+              data-hero-slide
+              data-slide-id="work"
+              data-slide-title="Work"
+              data-preview-label="Work"
+              data-preview-kind="text"
+              data-preview-emoji="🛠️"
+              data-preview-word="work"
+              data-preview-image="assets/work.jpg"
+              aria-hidden="true"
+            >
+              <div class="project-slide__media project-slide__media--text" aria-hidden="true">
+                <div class="project-slide__text-mark">
+                  <span class="project-slide__text-emoji">🛠️</span>
+                  <span class="project-slide__text-word">work</span>
+                </div>
+              </div>
+              <div class="project-slide__overlay">
+                <a class="project-slide__action type-utility" href="essays/systems/index.html" data-track="cta_3">
+                  No résumé bullets. Just system autopsies.
+                </a>
+              </div>
+            </article>
+
+            <article
+              class="project-slide project-slide--community-service"
+              data-hero-slide
+              data-slide-id="community-service"
+              data-slide-title="Community Service"
+              data-preview-label="Community Service"
+              data-preview-kind="text"
+              data-preview-emoji="🫶"
+              data-preview-word="community service"
+              data-preview-image="assets/community-service.jpg"
+              aria-hidden="true"
+            >
+              <div class="project-slide__media project-slide__media--text" aria-hidden="true">
+                <div class="project-slide__text-mark">
+                  <span class="project-slide__text-emoji">🫶</span>
+                  <span class="project-slide__text-word">community service</span>
+                </div>
+              </div>
+              <div class="project-slide__overlay">
+                <a
+                  class="project-slide__action type-utility"
+                  href="essays/community/coffee-kibbutz.html"
+                  data-track="cta_community_service"
+                >
+                  Systems that matter off the balance sheet
+                </a>
+              </div>
+            </article>
+
+            <article
+              class="project-slide project-slide--art"
+              data-hero-slide
+              data-slide-id="art"
+              data-slide-title="Art"
+              data-preview-label="Art"
+              data-preview-kind="text"
+              data-preview-emoji="✂️"
+              data-preview-word="art"
+              data-preview-image="assets/art.jpg"
+              aria-hidden="true"
+            >
+              <div class="project-slide__media project-slide__media--text" aria-hidden="true">
+                <div class="project-slide__text-mark">
+                  <span class="project-slide__text-emoji">✂️</span>
+                  <span class="project-slide__text-word">art</span>
+                </div>
+              </div>
+              <div class="project-slide__overlay">
+                <a class="project-slide__action type-utility" href="essays/art.html" data-track="cta_art">
+                  Access available upon request
+                </a>
+              </div>
+            </article>
+
+            <article
+              class="project-slide project-slide--food"
+              data-hero-slide
+              data-slide-id="food"
+              data-slide-title="Food"
+              data-preview-label="Food"
+              data-preview-kind="text"
+              data-preview-emoji="🍌"
+              data-preview-word="food"
+              data-preview-image="assets/food.jpg"
+              aria-hidden="true"
+            >
+              <div class="project-slide__media project-slide__media--text" aria-hidden="true">
+                <div class="project-slide__text-mark">
+                  <span class="project-slide__text-emoji">🍌</span>
+                  <span class="project-slide__text-word">food</span>
+                </div>
+              </div>
+              <div class="project-slide__overlay">
+                <a class="project-slide__action type-utility" href="essays/food/index.html" data-track="cta_food">
+                  Read the recipes
+                </a>
+              </div>
+            </article>
+
+            <div class="project-stage__flash-overlay" data-hero-flash aria-hidden="true"></div>
+
+            <button class="project-stage__preview" type="button" data-hero-next aria-label="View next project slide">
+              <img class="project-stage__preview-image" src="assets/community-service.jpg" alt="" data-hero-preview-image hidden aria-hidden="true">
+              <div class="project-stage__preview-mark" data-hero-preview-mark>
+                <span class="project-stage__preview-emoji" data-hero-preview-emoji>💰</span>
+                <span class="project-stage__preview-word" data-hero-preview-word>the money club.org</span>
+              </div>
+              <span class="project-stage__preview-label type-caption" data-hero-preview-label hidden>Next: The Money Club.Org</span>
+            </button>
+
+            <div class="project-stage__pagination type-utility" data-stage-progress aria-live="polite">01 / 08</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="assets/js/navigation.js" defer></script>
+    <script src="assets/js/analytics-placeholders.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
