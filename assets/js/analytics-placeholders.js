@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  const measurementId = "G-M5T0TD6Z6G";
+  const measurementId = "G-ZRH4L4ENS0";
   const scrollMilestones = [25, 50, 75];
   const firedMilestones = new Set();
   const viewedSections = new Set();
