@@ -157,7 +157,7 @@ function buildHierarchicalMenu(){
         { label: 'This Summer, We\'re Building Infrastructure', href: `${prefix}writing/building-infrastructure.html` },
         { label: 'The Misaligned Compass', href: `${prefix}writing/the-misaligned-compass.html` },
         { label: 'Debt, Slavery, and the Treasury', href: `${prefix}writing/debt-slavery-treasury.html` },
-        { label: 'Why Roman Law Still Runs the World (coming)', href: `${prefix}writing/why-roman-law-still-runs-the-world.html` },
+        { label: 'Why Roman Law Still Runs the World', href: `${prefix}writing/why-roman-law-still-runs-the-world.html` },
       ],
     },
     {
