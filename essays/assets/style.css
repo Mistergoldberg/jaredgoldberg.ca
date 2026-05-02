@@ -609,6 +609,11 @@ form button:hover{
     line-height: 1.2;
   }
 
+  .wiki-layout .toc-group.contains-current summary,
+  .wiki-layout .toc-group[open] summary{
+    color: #163f8f;
+  }
+
   .wiki-layout .toc-group summary::-webkit-details-marker{
     display: none;
   }
@@ -633,6 +638,15 @@ form button:hover{
 
   .wiki-layout .toc-sublist a:hover{
     background: #e9efff;
+  }
+
+  .wiki-layout .toc-list a.is-current,
+  .wiki-layout .toc-sublist a.is-current{
+    background: #dbe8ff;
+    border-color: rgba(26,115,232,0.45);
+    box-shadow: inset 3px 0 0 rgba(26,115,232,0.8);
+    color: #0f3675;
+    font-weight: 700;
   }
 
   .wiki-layout .wiki-main .card{

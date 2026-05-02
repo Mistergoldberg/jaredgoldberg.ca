@@ -93,7 +93,7 @@ function toggleMenu(){
 }
 
 function normalizePathname(pathname){
-  return pathname.replace(/\/+$/, '');
+  return pathname.replace(/\/index\.html$/, '/').replace(/\/+$/, '');
 }
 
 function resolveMenuPrefix(menuLinks){
@@ -211,9 +211,35 @@ function buildHierarchicalMenu(){
   menuLinks.dataset.enhanced = 'true';
 }
 
+function enhanceDesktopSidebar(){
+  const sidebar = document.querySelector('.wiki-sidebar');
+  if (!sidebar) return;
+
+  let currentLink = null;
+  sidebar.querySelectorAll('a[href]').forEach((link) => {
+    if (!isCurrentLink(link.getAttribute('href'))) return;
+    link.classList.add('is-current');
+    link.setAttribute('aria-current', 'page');
+    currentLink = link;
+  });
+
+  sidebar.querySelectorAll('details.toc-group').forEach((details) => {
+    if (!details.querySelector('.is-current')) return;
+    details.open = true;
+    details.classList.add('contains-current');
+  });
+
+  if (currentLink && window.matchMedia('(min-width: 1024px)').matches) {
+    window.requestAnimationFrame(() => {
+      currentLink.scrollIntoView({ block: 'nearest' });
+    });
+  }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   ensureAnalytics();
   buildHierarchicalMenu();
+  enhanceDesktopSidebar();
   syncMenuA11yState();
 
   document.querySelectorAll('[data-track]').forEach((target) => {
