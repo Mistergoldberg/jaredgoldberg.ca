@@ -368,7 +368,7 @@ body.is-scroll-locked {
 .project-slide__action {
   width: fit-content;
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;
   gap: var(--space-2);
   color: var(--color-text-inverse);
   text-decoration: none;
@@ -378,6 +378,34 @@ body.is-scroll-locked {
   content: "\2192";
   font-size: 0.95em;
   line-height: 1;
+  margin-top: 0.12em;
+}
+
+.project-slide__action-copy {
+  display: grid;
+  gap: 0.28rem;
+}
+
+.project-slide__action-title,
+.project-slide__action-subtitle,
+.project-slide__action-flavor {
+  display: block;
+}
+
+.project-slide__action-title {
+  font-weight: var(--font-weight-heavy);
+  text-transform: uppercase;
+}
+
+.project-slide__action-subtitle,
+.project-slide__action-flavor {
+  max-width: 42ch;
+  font-weight: var(--font-weight-regular);
+  text-transform: none;
+}
+
+.project-slide__action-flavor {
+  opacity: 0.72;
 }
 
 .project-slide[data-preview-kind="text"] .project-slide__meta,
@@ -568,9 +596,10 @@ body.is-scroll-locked {
   font-family: var(--font-family-display);
   font-size: clamp(1.25rem, 2.4vw, 2.5rem);
   font-weight: var(--font-weight-regular);
-  line-height: 1;
+  line-height: 1.16;
   letter-spacing: -0.01em;
   text-transform: none;
+  padding-block: 0.03em 0.12em;
   overflow: hidden;
   text-overflow: ellipsis;
 }
