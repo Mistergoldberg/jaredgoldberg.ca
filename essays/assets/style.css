@@ -323,6 +323,30 @@ header{
   letter-spacing: -0.02em;
 }
 
+.essay-footer-links{
+  margin: 44px 0 14px 0;
+  background: var(--panel);
+  border: 1px solid rgba(0,0,0,0.05);
+  border-radius: var(--radius);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+  padding: 18px;
+}
+
+.essay-footer-links h2{
+  margin: 0 0 12px 0;
+  font-size: 1.4rem;
+  line-height: 1.08;
+}
+
+.essay-footer-links ul{
+  margin: 0;
+  padding-left: 20px;
+}
+
+.essay-footer-links li{
+  margin: 8px 0;
+}
+
 
 .grid{
   display:grid;
