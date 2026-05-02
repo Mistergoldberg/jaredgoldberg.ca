@@ -214,6 +214,71 @@ body.is-scroll-locked {
   color: #ffffff;
 }
 
+.menu-panel__group,
+.menu-panel__subgroup {
+  color: var(--color-text-inverse);
+}
+
+.menu-panel__summary {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55em;
+  padding: var(--space-2) 0;
+  font-family: var(--font-family-display);
+  font-size: clamp(1.45rem, 1.05rem + 1.35vw, 2.15rem);
+  font-weight: var(--font-weight-heavy);
+  line-height: 0.95;
+  letter-spacing: var(--tracking-display);
+  text-transform: uppercase;
+  cursor: pointer;
+  list-style: none;
+}
+
+.menu-panel__summary::-webkit-details-marker,
+.menu-panel__subgroup summary::-webkit-details-marker {
+  display: none;
+}
+
+.menu-panel__sublist,
+.menu-panel__subgroup ul {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0;
+  padding: 0.35rem 0 0.75rem 2.2rem;
+  list-style: none;
+}
+
+.menu-panel__sublist a,
+.menu-panel__subgroup summary {
+  color: rgba(248, 247, 243, 0.78);
+  font-family: var(--font-family-body);
+  font-size: 0.9rem;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.menu-panel__subgroup summary {
+  cursor: pointer;
+}
+
+.menu-panel__subgroup ul {
+  padding-left: 0.9rem;
+  padding-bottom: 0.35rem;
+}
+
+.menu-panel__subgroup a {
+  color: rgba(248, 247, 243, 0.68);
+  font-size: 0.82rem;
+}
+
+.menu-panel__sublist a:hover,
+.menu-panel__sublist a:focus-visible,
+.menu-panel__subgroup summary:hover,
+.menu-panel__subgroup summary:focus-visible {
+  color: #ffffff;
+}
+
 .menu-panel__utility {
   display: flex;
   align-items: center;

@@ -232,6 +232,17 @@ header{
   padding: 0;
 }
 
+#side-menu .menu-tree--nested{
+  border-bottom: 0;
+  background: rgba(255,255,255,0.03);
+}
+
+#side-menu .menu-tree--nested summary{
+  padding-left: calc(var(--menu-inline-start) + 10px);
+  font-size: 0.96rem;
+  background: rgba(255,255,255,0.02);
+}
+
 #side-menu .menu-leaf-link{
   display: block;
   width: 100%;
@@ -239,6 +250,12 @@ header{
   border-bottom: 1px solid rgba(255,255,255,0.12);
   padding: 10px 20px 10px calc(var(--menu-inline-start) + 10px);
   line-height: 1.3;
+}
+
+#side-menu .menu-leaf-link--nested{
+  padding-left: calc(var(--menu-inline-start) + 22px);
+  font-size: 0.95rem;
+  background: rgba(255,255,255,0.045);
 }
 
 #side-menu .is-current{
@@ -606,6 +623,29 @@ form button:hover{
     border-radius: 10px;
     background: #f7f8fb;
     box-shadow: none;
+  }
+
+  .wiki-layout .toc-sublist .toc-group{
+    background: #f7f8fb;
+    border: 0;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .wiki-layout .toc-sublist .toc-group summary{
+    padding: 6px 10px;
+    color: #26364d;
+    font-size: 0.9rem;
+    line-height: 1.25;
+  }
+
+  .wiki-layout .toc-sublist--nested{
+    margin: 2px 0 8px 10px;
+  }
+
+  .wiki-layout .toc-sublist--nested a{
+    background: #fff;
+    font-size: 0.88rem;
   }
 
   .wiki-layout .toc-sublist a:hover{

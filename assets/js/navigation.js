@@ -4,7 +4,7 @@
   function getFocusableElements(container) {
     return Array.from(
       container.querySelectorAll(
-        "a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex='-1'])"
+        "a[href], button:not([disabled]), summary, input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex='-1'])"
       )
     ).filter((element) => !element.hasAttribute("hidden") && element.getAttribute("aria-hidden") !== "true");
   }
