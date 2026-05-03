@@ -4,35 +4,35 @@ const fieldGuideArcs = [
   {
     label: '⚙️ Arc I — The External Machine',
     children: [
-      { label: 'Essay 1 · What Do the Wealthy, the Sun, and Popular Kids Have in Common?', hrefPath: 'writing/what-do-the-wealthy/' },
-      { label: 'Essay 2 · Baseball Bats and Dominance Hierarchies', hrefPath: 'writing/baseball-bats/' },
-      { label: 'Essay 3 · Why the Medium Is the Message', hrefPath: 'writing/medium-is-the-message/' },
-      { label: 'Essay 4 · We Behave Like Ants: Feedback Loops and Collective Failure', hrefPath: 'writing/we-behave-like-ants/' },
-      { label: 'Essay 5 · What Does It All Mean?', hrefPath: 'writing/what-does-it-all-mean/' },
+      { label: 'What Do the Wealthy, the Sun, and Popular Kids Have in Common?', hrefPath: 'writing/what-do-the-wealthy/' },
+      { label: 'Baseball Bats and Dominance Hierarchies', hrefPath: 'writing/baseball-bats/' },
+      { label: 'Why the Medium Is the Message', hrefPath: 'writing/medium-is-the-message/' },
+      { label: 'We Behave Like Ants: Feedback Loops and Collective Failure', hrefPath: 'writing/we-behave-like-ants/' },
+      { label: 'What Does It All Mean?', hrefPath: 'writing/what-does-it-all-mean/' },
     ],
   },
   {
     label: '🏗️ Arc II — The Civic Response',
     children: [
-      { label: 'Essay 6 · If Luck Is Structural, What Do We Teach Our Kids?', hrefPath: 'writing/if-luck-is-structural/' },
-      { label: 'Essay 7 · Civic Design Failure: Why We Teach Money Too Late', hrefPath: 'writing/civic-design-failure/' },
-      { label: 'Essay 8 · Compounding Bad Luck Is Expensive for You Too', hrefPath: 'writing/compounding-bad-luck/' },
-      { label: 'Essay 9 · What Real Systems Taught Me About Incentives', hrefPath: 'writing/real-systems-incentives/' },
-      { label: 'Essay 10 · This Summer, We\'re Building Infrastructure', hrefPath: 'writing/building-infrastructure/' },
+      { label: 'If Luck Is Structural, What Do We Teach Our Kids?', hrefPath: 'writing/if-luck-is-structural/' },
+      { label: 'Civic Design Failure: Why We Teach Money Too Late', hrefPath: 'writing/civic-design-failure/' },
+      { label: 'Compounding Bad Luck Is Expensive for You Too', hrefPath: 'writing/compounding-bad-luck/' },
+      { label: 'What Real Systems Taught Me About Incentives', hrefPath: 'writing/real-systems-incentives/' },
+      { label: 'This Summer, We\'re Building Infrastructure', hrefPath: 'writing/building-infrastructure/' },
     ],
   },
   {
     label: '🧠 Arc III — The Human Engine',
     children: [
-      { label: 'Essay 11 · The Misaligned Compass', hrefPath: 'writing/the-misaligned-compass/' },
-      { label: 'Essay 12 · Debt, Slavery, and the Treasury', hrefPath: 'writing/debt-slavery-treasury/' },
-      { label: 'Essay 13 · Why Roman Law Still Runs the World', hrefPath: 'writing/why-roman-law-still-runs-the-world/' },
+      { label: 'The Misaligned Compass', hrefPath: 'writing/the-misaligned-compass/' },
+      { label: 'Debt, Slavery, and the Treasury', hrefPath: 'writing/debt-slavery-treasury/' },
+      { label: 'Why Roman Law Still Runs the World', hrefPath: 'writing/why-roman-law-still-runs-the-world/' },
     ],
   },
   {
     label: '🧠 Arc IV — Education as Infrastructure',
     children: [
-      { label: 'Essay 14 · AI: This Isn\'t About Us', hrefPath: 'writing/ai-is-not-about-us/' },
+      { label: 'AI: This Isn\'t About Us', hrefPath: 'writing/ai-is-not-about-us/' },
     ],
   },
 ];
