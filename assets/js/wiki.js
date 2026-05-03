@@ -180,6 +180,7 @@ function getMenuTree(siteRoot){
       label: 'Projects',
       icon: '💰',
       children: [
+        { label: 'Introduction', href: href('projects/') },
         { label: 'The Money Club', href: href('projects/the-money-club/') },
         { label: 'Capability Works', href: href('projects/capital-works/') },
       ],
@@ -188,7 +189,7 @@ function getMenuTree(siteRoot){
       label: 'Work',
       icon: '🛠️',
       children: [
-        { label: 'Selected Work', href: href('work/index.html') },
+        { label: 'Introduction', href: href('work/') },
         { label: 'Loblaw', href: href('work/loblaw.html') },
         { label: 'Walmart', href: href('work/walmart.html') },
         { label: 'Canadian Tire', href: href('work/canadian-tire.html') },
