@@ -33,6 +33,7 @@ const fieldGuideArcs = [
     label: '🧠 Arc IV — Education as Infrastructure',
     children: [
       { label: 'AI: This Isn\'t About Us', hrefPath: 'writing/ai-is-not-about-us/' },
+      { label: 'Schools Were Built for a Different Economy', hrefPath: 'writing/schools-built-for-a-different-economy/' },
     ],
   },
 ];
