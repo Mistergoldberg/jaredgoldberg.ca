@@ -34,6 +34,8 @@ const fieldGuideArcs = [
     children: [
       { label: 'AI: This Isn\'t About Us', hrefPath: 'writing/ai-is-not-about-us/' },
       { label: 'Schools Were Built for a Different Economy', hrefPath: 'writing/schools-built-for-a-different-economy/' },
+      { label: 'Learning Labs: What Education Becomes After AI', hrefPath: 'writing/learning-labs-what-education-becomes-after-ai/' },
+      { label: 'What Systems Literacy Looks Like at 10', hrefPath: 'writing/what-systems-literacy-looks-like-at-10/' },
     ],
   },
 ];
