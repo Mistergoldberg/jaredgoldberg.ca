@@ -36,3 +36,12 @@ Thumbs.db
 .vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
+
+# 640x480 local photo sources and generated media
+/640/20[0-9][0-9]/
+/640/dev-01/
+/640/original-photos/
+/640/generated/
+/640/app/public/library/
+/640/app/dist/
+/640/app/node_modules/
