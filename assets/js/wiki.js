@@ -184,7 +184,13 @@ function getMenuTree(siteRoot){
       icon: '💰',
       children: [
         { label: 'Introduction', href: href('projects/') },
-        { label: 'The Money Club', href: href('projects/the-money-club/') },
+        {
+          label: 'The Money Club',
+          children: [
+            { label: 'Overview', href: href('projects/the-money-club/') },
+            { label: 'The Money Club: Maiden Voyage', href: href('projects/the-money-club/maiden-voyage/') },
+          ],
+        },
         { label: 'Capability Works', href: href('projects/capital-works/') },
       ],
     },
