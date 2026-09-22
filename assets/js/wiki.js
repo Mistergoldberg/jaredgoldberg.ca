@@ -30,12 +30,26 @@ const fieldGuideArcs = [
     ],
   },
   {
-    label: '🧠 Arc IV — Education as Infrastructure',
+    label: '🎓 Arc IV — Education, AI, and Institutional Design',
     children: [
       { label: 'AI: This Isn\'t About Us', hrefPath: 'writing/ai-is-not-about-us/' },
       { label: 'Schools Were Built for a Different Economy', hrefPath: 'writing/schools-built-for-a-different-economy/' },
       { label: 'Learning Labs: What Education Becomes After AI', hrefPath: 'writing/learning-labs-what-education-becomes-after-ai/' },
       { label: 'What Systems Literacy Looks Like at 10', hrefPath: 'writing/what-systems-literacy-looks-like-at-10/' },
+      { label: 'Why AI Belongs Inside Financial Literacy', hrefPath: 'writing/why-ai-belongs-inside-financial-literacy/' },
+      { label: 'Run the Loop Early', hrefPath: 'writing/run-the-loop-early/' },
+      { label: 'The Maker Market Is Not a Presentation', hrefPath: 'writing/the-maker-market-is-not-a-presentation/' },
+    ],
+  },
+  {
+    label: '🏛️ Arc V — Education as an Operating System',
+    children: [
+      { label: 'The Money Club as a Deployable Education System', hrefPath: 'writing/the-money-club-as-a-deployable-education-system/' },
+      { label: 'From Friction to First Test', hrefPath: 'writing/from-friction-to-first-test/' },
+      { label: 'Shopify for Youth Programs', hrefPath: 'writing/shopify-for-youth-programs/' },
+      { label: 'Closed Loops: Why Communities Leak Value', hrefPath: 'writing/closed-loops-why-communities-leak-value/' },
+      { label: 'The Future of Work Is a Design Problem', hrefPath: 'writing/the-future-of-work-is-a-design-problem/' },
+      { label: 'The Conditions of Dignity Are a Systems Output', hrefPath: 'writing/dignity-is-a-systems-output/' },
     ],
   },
 ];
@@ -184,7 +198,13 @@ function getMenuTree(siteRoot){
       icon: '💰',
       children: [
         { label: 'Introduction', href: href('projects/') },
-        { label: 'The Money Club', href: href('projects/the-money-club/') },
+        {
+          label: 'The Money Club',
+          children: [
+            { label: 'Overview', href: href('projects/the-money-club/') },
+            { label: 'The Money Club: Maiden Voyage', href: href('projects/the-money-club/maiden-voyage/') },
+          ],
+        },
         { label: 'Capability Works', href: href('projects/capital-works/') },
       ],
     },
