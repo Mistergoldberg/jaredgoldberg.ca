@@ -451,6 +451,24 @@ body.is-scroll-locked {
   gap: 0.28rem;
 }
 
+.project-slide__identity {
+  max-width: 20ch;
+  display: grid;
+  gap: 0.28rem;
+  font-size: clamp(1.05rem, 0.92rem + 0.62vw, 1.6rem);
+  line-height: 1.05;
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+}
+
+.project-slide__identity-role {
+  font-size: var(--type-size-utility);
+  font-weight: var(--font-weight-regular);
+  line-height: 1.2;
+  letter-spacing: var(--tracking-ui);
+  text-transform: none;
+}
+
 .project-slide__action-title,
 .project-slide__action-subtitle,
 .project-slide__action-flavor {
