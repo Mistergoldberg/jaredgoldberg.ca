@@ -8,7 +8,7 @@
 - Verified production SHA-256 values:
   - `index.html`: `39ad21ed8cd38d333f3e47be41a2e860f104cf39f8a7c86e821ad54dcac4084d`
   - `about/index.html`: `71dbdfb318b9c4175eace7bc18e1ea3102e8be38d94c7ce42449c4a71b1a0fa6`
-- `assets/css/components.css`: `fda13b6e600b23714ee1b37356808119b1f4dd06f8a398ea1ee3eeb6503b3a51`
+  - `assets/css/components.css`: `fda13b6e600b23714ee1b37356808119b1f4dd06f8a398ea1ee3eeb6503b3a51`
 
 ## Follow-up origin deployment
 
